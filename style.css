@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	height : 100vh;
+	background-size:cover;
+	background-position: center;
+	/*http://www.nen.gov.uk/media/zoo/images/the_dark_web_a3ac248ce00841569371a141d60bab2d.jpeg */
+}
+.main-nav      /* for editing the navigation menu*/
+{
+  float:right;
+  list-style: none;
+  margin-top: 30px;
+}
+.main-nav li
+{
+	display:inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+.logo img
+{
+	width:70px;
+	height:auto;
+	float: left;
+}
+body
+{
+	font-family:monospace;
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.hero
+{
+	position:absolute; 
+	width: 1200px;
+	margin-left:45px;
+	margin-top: 100px;
+}
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align:center;
+	margin-top: 20px;
+}
+
+.button 
+{margin-top: 30px;
+ margin-left: 250px;
+}
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right : 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.btn-one
+{
+	background-color: darkorange;
+	font-family: "Roboto",sans-serif;
+}
+
+.btn-two
+{
+	font-family: "Roboto",sans-serif;
+}
+.btn-four
+{
+    font-family: "Roboto",sans-serif;
+}
+.btn-three
+{
+	font-family: "Roboto",sans-serif;
+}
+.btn-two:hover
+{
+	background-color: darkorange;
+	transition: all 1s ease-in;
+}
+.btn-three:hover
+{
+	background-color: darkorange;
+	transition: all 1s ease-in;
+}
+.btn-four:hover
+{
+	background-color: darkorange;
+	transition: all 1s ease-in;
+}
+
+
